@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Solar Priority",
+        "description": "Configure solar surplus, Wallbox, hot water and Nord Pool control.",
+        "data": {
+          "grid_power": "Grid power",
+          "wallbox_current": "Wallbox charging current",
+          "wallbox_pause": "Wallbox pause/resume",
+          "water_switch": "Hot water switch",
+          "nord_pool": "Nord Pool price",
+          "min_current": "Minimum charging current",
+          "max_current": "Maximum charging current",
+          "cheap_price": "Cheap price limit (EUR/kWh)",
+          "surplus_margin": "Solar surplus reserve (W)",
+          "grid_limit": "Maximum grid import (W)",
+          "water_power": "Hot water power (W)"
+        }
+      }
+    }
+  }
+}
